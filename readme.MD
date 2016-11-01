@@ -10,6 +10,16 @@ you to build upon it to create your own solutions.
 
 This sample is built for Android using [Android Studio](https://developer.android.com/studio/index.html).
 
+Note:
+
+----
+
+This sample works best if you have Citrix Receiver installed on either your emulator or
+the hardware device you are testing on. The reason for this is that once we get the ICA file
+from storefront, we then save it to the storage and then pass it to the receiver application.
+
+---
+
 Currently, for this sample, we do not have the same helper functions available
 as we do with the C#/Xamarin.Forms samples, but we are working on them. If you would
 like to have these helper functions available, please let us know via our [@CitrixDeveloper](http://www.twitter.com/citrixdeveloper)
