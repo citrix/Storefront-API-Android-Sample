@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dip"
+    android:layout_marginTop="10dip"
+    >
+<ImageView
+    android:layout_width="50dip"
+    android:layout_height="50dip"
+    android:src="@mipmap/ic_launcher"
+    android:layout_toLeftOf="@+id/EditBtn"
+    android:id="@+id/AppImage"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Launch App"
+        android:layout_alignParentRight="true"
+        android:id="@+id/EditBtn"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="35dip"
+        android:text=""
+        android:id="@+id/AppTitle"
+        android:textSize="20dip"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dip"
+        android:text=""
+        android:layout_below="@+id/AppTitle"
+        android:id="@+id/AppDesc"/>
+
+</RelativeLayout>
