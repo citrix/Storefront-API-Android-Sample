@@ -26,7 +26,8 @@ like to have these helper functions available, please let us know via our [@Citr
 twitter feed.
 
 If you would like to find the helper functions for C#, here is the nuget 
-[link](https://www.nuget.org/packages?q=citrix) for the packages
+[link](https://www.nuget.org/packages?q=citrix) for the packages that include the storefront
+helpers.
 
 
 Here are some images that display the application. In the sample we have the following
