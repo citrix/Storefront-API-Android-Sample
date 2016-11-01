@@ -23,7 +23,8 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:id="@+id/username"
-            android:text="dev\\administrator"/>
+            android:text=""
+            android:hint="Enter Username"/>
         <TextView
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
@@ -32,7 +33,9 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:id="@+id/password"
-            android:text=""/>
+            android:text=""
+            android:hint="Enter Password"
+            android:inputType="textPassword"/>
         <TextView
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
@@ -42,7 +45,8 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:id="@+id/url"
-            android:text="http://10.10.10.5/citrix/storeweb"/>
+            android:text=""
+            android:hint="Enter Storefront URL"/>
         <TextView
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
